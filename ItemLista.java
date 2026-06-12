@@ -1,5 +1,3 @@
-
-
 public class ItemLista {
     private String descricao;
     private String unidade;
@@ -10,15 +8,12 @@ public class ItemLista {
         this.unidade = unidade;
         this.quantidade = quantidade;
     }
-
     public String getDescricao() {
         return descricao;
     }
-
     public String getUnidade() {
         return unidade;
     }
-
     public double getQuantidade() {
         return quantidade;
     }
