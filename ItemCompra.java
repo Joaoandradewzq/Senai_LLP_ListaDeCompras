@@ -1,5 +1,3 @@
-
-
 public class ItemCompra {
     private String descricao;
     private String unidade;
@@ -12,23 +10,18 @@ public class ItemCompra {
         this.quantidade = quantidade;
         this.precoUnitario = precoUnitario;
     }
-
     public String getDescricao() {
         return descricao;
     }
-
     public String getUnidade() {
         return unidade;
     }
-
     public double getQuantidade() {
         return quantidade;
     }
-
     public double getPrecoUnitario() {
         return precoUnitario;
     }
-
     public double getTotal() {
         return quantidade * precoUnitario;
     }
